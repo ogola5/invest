@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "invest_backend": {
+      "main": "src/invest_backend/main.mo",
+      "type": "motoko"
+    },
+    "invest_frontend": {
+      "dependencies": [
+        "invest_backend"
+      ],
+      "source": [
+        "src/invest_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "invest_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
