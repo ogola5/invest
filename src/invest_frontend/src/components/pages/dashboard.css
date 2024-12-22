@@ -1,0 +1,79 @@
+/* dashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  
+.header {
+    background: #3498db;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  
+.header h1 {
+    margin: 0;
+  }
+  
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+.card {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: calc(33% - 20px);
+  }
+  
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+.token-price {
+    background-color: #2196F3; /* Blue */
+  }
+  
+.user-balance {
+    background-color: #673AB7; /* Purple */
+  }
+  
+.insurance-fund {
+    background-color: #009688; /* Green */
+  }
+  
+@media (max-width: 768px) {
+    .dashboard-content {
+      flex-direction: column;
+    }
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+}
+  

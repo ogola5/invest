@@ -14,5 +14,10 @@
   "type": "module",
   "workspaces": [
     "src/invest_frontend"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react-bootstrap": "^2.10.7",
+    "react-router-dom": "^7.0.2"
+  }
 }

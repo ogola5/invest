@@ -1,0 +1,45 @@
+/* acquire-insurance.css */
+
+.acquire-insurance-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+.acquire-insurance-card {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+.acquire-insurance-card .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.acquire-insurance-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.acquire-insurance-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+.acquire-insurance-button {
+    background-color: #2196F3; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.acquire-insurance-button:hover {
+    background-color: #1976D2; /* Darker blue */
+  }
+  

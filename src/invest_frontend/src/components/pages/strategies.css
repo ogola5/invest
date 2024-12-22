@@ -1,0 +1,55 @@
+/* strategies.css */
+
+.strategies-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+.strategies-header {
+    color: #2196F3; /* Blue */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+.strategies-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.strategy-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+.strategy-name {
+    font-weight: bold;
+    color: #673AB7; /* Purple */
+    margin-bottom: 10px;
+  }
+  
+.strategy-description {
+    color: #757575; /* Gray */
+    font-style: italic;
+  }
+  
+.risk-level {
+    color: #FF9800; /* Orange */
+    font-weight: bold;
+  }
+  
+.current-value {
+    color: #4CAF50; /* Green */
+    font-weight: bold;
+  }
+  
+.strategy-item:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  

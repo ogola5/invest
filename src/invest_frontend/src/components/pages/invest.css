@@ -1,0 +1,67 @@
+/* invest.css */
+
+.invest-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+.invest-header {
+    color: #2196F3; /* Blue */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+.invest-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.invest-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+.invest-select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+.invest-button {
+    background-color: #673AB7; /* Purple */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.invest-button:hover {
+    background-color: #6200EA; /* Darker purple */
+  }
+  
+.invest-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+.error-message {
+    color: #DC3545; /* Red */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+.success-message {
+    color: #28A745; /* Green */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
