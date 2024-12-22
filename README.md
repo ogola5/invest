@@ -98,3 +98,8 @@ Interact with the canister using the provided API.
 Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
+Frontend canister via browser
+    invest_frontend: https://7fah5-7aaaa-aaaah-qpxvq-cai.icp0.io/
+  Backend canister via Candid interface:
+    invest_backend: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=7cbbj-syaaa-aaaah-qpxva-cai
+
