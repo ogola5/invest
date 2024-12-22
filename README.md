@@ -60,20 +60,17 @@ The app currently uses a simulated token transfer logic for the MVP. Full integr
 
 Usage
 Buying Tokens
-motoko
-Copy code
+
 public shared(msg) func buyTokens(amount: Nat64): async Result.Result<Text, Text>
 Users can purchase tokens by specifying the amount. The cost is calculated as amount * tokenPrice.
 
 ### Adding an Investment Strategy
-motoko
-Copy code
+
 public shared func addInvestmentStrategy(name: Text, description: Text, riskLevel: Float): async Result.Result<Text, Text>
 Admins can add a new investment strategy with a specific name, description, and risk level.
 
 Acquiring Insurance
-motoko
-Copy code
+
 public shared(msg) func acquireInsurance(coverageAmount: Nat64): async Result.Result<(), Text>
 Users can acquire insurance coverage by paying a premium of 5% of the coverage amount.
 
@@ -85,8 +82,7 @@ Multi-currency support.
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/ogola5/invest.git
 cd invest
 Deploy the canister:
